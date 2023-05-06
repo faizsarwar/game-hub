@@ -12,12 +12,12 @@ function App() {
 
       {/* this is rendered only large devices and above*/}
       <Show above="lg">
-        <GridItem area="aside" bg="gold">
+        <GridItem area="aside" >
           Aside
         </GridItem>
       </Show>
 
-      <GridItem area="main" bg="dodgerblue">
+      <GridItem area="main">
         MAIN
       </GridItem>
     </Grid>
